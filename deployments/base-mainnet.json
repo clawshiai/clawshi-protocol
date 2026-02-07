@@ -1,0 +1,34 @@
+{
+  "network": "Base Mainnet",
+  "chainId": 8453,
+  "deployedAt": "2026-02-07",
+  "contracts": {
+    "MarketFactory": {
+      "address": "0xc0DeBCEa2F1BcB268b01777ff9c8E3BB4dA85559",
+      "basescan": "https://basescan.org/address/0xc0DeBCEa2F1BcB268b01777ff9c8E3BB4dA85559"
+    },
+    "ChainlinkResolver": {
+      "address": "0xDEbe4E62bEE1DA1657008480e6d91a3f1E3CCaeC",
+      "basescan": "https://basescan.org/address/0xDEbe4E62bEE1DA1657008480e6d91a3f1E3CCaeC"
+    },
+    "ManualResolver": {
+      "address": "0x3602D8989920B9A9451BF9D9562Bb97BA7cEd1bb",
+      "basescan": "https://basescan.org/address/0x3602D8989920B9A9451BF9D9562Bb97BA7cEd1bb"
+    }
+  },
+  "tokens": {
+    "USDC": {
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "decimals": 6
+    }
+  },
+  "priceFeeds": {
+    "BTC/USD": "0x64c911996D3c6aC71f9b455B1E8E7266BcbD848F",
+    "ETH/USD": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+  },
+  "config": {
+    "protocolFeeBps": 100,
+    "minStake": "100000",
+    "maxCreatorFeeBps": 500
+  }
+}
